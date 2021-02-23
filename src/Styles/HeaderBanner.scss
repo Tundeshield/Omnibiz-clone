@@ -1,0 +1,36 @@
+.headerBanner {
+	display: flex;
+	height: 100vh;
+	justify-content: space-between;
+	padding-left: 112px;
+	align-items: center;
+	padding-bottom: 3.125em;
+	.headerBanner__left {
+		display: flex;
+		flex-direction: column;
+		flex: 1;
+		.headerBanner__left__title {
+			color: #0c1f43;
+			h1 {
+				font-weight: 900;
+				font-size: 64px;
+				line-height: 1.2em;
+				span {
+					text-decoration: underline;
+					text-decoration-color: #f7d9b9;
+					text-decoration-thickness: 9px;
+				}
+			}
+		}
+	}
+
+	.headerBanner__right {
+		flex: 1;
+		padding-top: 100px;
+		padding-left: 15px;
+
+		img {
+			width: 80%;
+		}
+	}
+}

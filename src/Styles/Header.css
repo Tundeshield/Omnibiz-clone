@@ -1,0 +1,86 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 24px;
+  background: white;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #f5f5f5;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 112px;
+  padding-bottom: 25px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  -webkit-box-shadow: 0 4px 12.4px rgba(0, 0, 0, 0.045), 0 32px 99px rgba(0, 0, 0, 0.09);
+          box-shadow: 0 4px 12.4px rgba(0, 0, 0, 0.045), 0 32px 99px rgba(0, 0, 0, 0.09);
+}
+
+.header .header__logo {
+  margin-right: 2.5em;
+}
+
+.header .header__logo img {
+  width: 145px;
+  cursor: pointer;
+}
+
+.header .header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  list-style: none;
+}
+
+.header .header__menu li {
+  margin-right: 2.5em;
+  font-size: 1em;
+  cursor: pointer;
+  color: #1d293f;
+}
+
+.header .header__menu li a {
+  text-decoration: none;
+  color: #1d293f;
+}
+
+.header .header__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .header__right li {
+  list-style: none;
+  margin-right: 2.5em;
+  cursor: pointer;
+  color: #202020;
+}
+
+.header .header__right button {
+  margin-right: 1em;
+}
+
+.header .header__right button a {
+  text-decoration: none;
+  color: white;
+}
+
+.header .header__right .MuiButton-containedPrimary {
+  background-color: #3260d2;
+}
+/*# sourceMappingURL=Header.css.map */

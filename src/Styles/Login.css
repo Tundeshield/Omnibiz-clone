@@ -1,0 +1,202 @@
+.login {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.login .login__left {
+  width: 55%;
+  height: 100%;
+  background: #f5f5f5;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login .login__left img {
+  width: 85%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+.login .login__right {
+  background: #fafafa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 45%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login .login__right .login__logo {
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+.login .login__right .login__logo img {
+  width: 30%;
+  cursor: pointer;
+}
+
+.login .login__right .loginEmail {
+  width: 60%;
+  background: #ffffff;
+  margin-bottom: 1em;
+}
+
+.login .login__right .loginEmail p {
+  font-size: 0.81em;
+  color: #61727b;
+  margin-bottom: 0.5em;
+}
+
+.login .login__right .loginEmail .loginEmail__input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #d4d5d8;
+  border-radius: 4px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.3em;
+}
+
+.login .login__right .loginEmail .loginEmail__input .MuiSvgIcon-root {
+  color: #5a6376;
+  font-size: 1em;
+  margin-right: 0.4em;
+}
+
+.login .login__right .loginEmail .loginEmail__input input {
+  border: none;
+  outline: none;
+  color: #5a6376;
+}
+
+.login .login__right .loginEmail .loginEmail__input input::-webkit-input-placeholder {
+  color: #c2c2c2;
+}
+
+.login .login__right .loginEmail .loginEmail__input input:-ms-input-placeholder {
+  color: #c2c2c2;
+}
+
+.login .login__right .loginEmail .loginEmail__input input::-ms-input-placeholder {
+  color: #c2c2c2;
+}
+
+.login .login__right .loginEmail .loginEmail__input input::placeholder {
+  color: #c2c2c2;
+}
+
+.login .login__right .loginPassword {
+  width: 60%;
+  background: #ffffff;
+  margin-bottom: 1em;
+}
+
+.login .login__right .loginPassword p {
+  font-size: 0.81em;
+  color: #61727b;
+  margin-bottom: 0.5em;
+}
+
+.login .login__right .loginPassword .loginPassword__input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #d4d5d8;
+  border-radius: 4px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.3em;
+  position: relative;
+}
+
+.login .login__right .loginPassword .loginPassword__input .MuiSvgIcon-root {
+  color: #5a6376;
+  font-size: 1em;
+  margin-right: 0.4em;
+}
+
+.login .login__right .loginPassword .loginPassword__input .MuiSvgIcon-root.eye {
+  color: #5a6376;
+  position: absolute;
+  right: 2px;
+}
+
+.login .login__right .loginPassword .loginPassword__input input {
+  border: none;
+  outline: none;
+  color: #5a6376;
+}
+
+.login .login__right .loginPassword .loginPassword__input input::-webkit-input-placeholder {
+  color: #c2c2c2;
+}
+
+.login .login__right .loginPassword .loginPassword__input input:-ms-input-placeholder {
+  color: #c2c2c2;
+}
+
+.login .login__right .loginPassword .loginPassword__input input::-ms-input-placeholder {
+  color: #c2c2c2;
+}
+
+.login .login__right .loginPassword .loginPassword__input input::placeholder {
+  color: #c2c2c2;
+}
+
+.login .login__right .login__button {
+  width: 60%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1.5em;
+}
+
+.login .login__right .login__button button {
+  width: 100%;
+  background-color: #3260d2;
+  color: white;
+  border-radius: 20px;
+}
+
+.login .login__right .login__signup p {
+  font-size: 0.75em;
+  color: #232f49;
+}
+
+.login .login__right .login__signup p span {
+  color: #232f93;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Login.css.map */

@@ -1,0 +1,57 @@
+.headerBanner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 112px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 3.125em;
+}
+
+.headerBanner .headerBanner__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.headerBanner .headerBanner__left .headerBanner__left__title {
+  color: #0c1f43;
+}
+
+.headerBanner .headerBanner__left .headerBanner__left__title h1 {
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 1.2em;
+}
+
+.headerBanner .headerBanner__left .headerBanner__left__title h1 span {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #f7d9b9;
+          text-decoration-color: #f7d9b9;
+  text-decoration-thickness: 9px;
+}
+
+.headerBanner .headerBanner__right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding-top: 100px;
+  padding-left: 15px;
+}
+
+.headerBanner .headerBanner__right img {
+  width: 80%;
+}
+/*# sourceMappingURL=HeaderBanner.css.map */
